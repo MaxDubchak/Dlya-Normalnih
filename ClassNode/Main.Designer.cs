@@ -35,11 +35,12 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.Indecator_red = new System.Windows.Forms.PictureBox();
             this.Indecator_green = new System.Windows.Forms.PictureBox();
+            this.Indecator_red = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Indecator_red)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Indecator_green)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Indecator_red)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -70,7 +71,7 @@
             this.viewNodeButton.Name = "viewNodeButton";
             this.viewNodeButton.Size = new System.Drawing.Size(197, 78);
             this.viewNodeButton.TabIndex = 4;
-            this.viewNodeButton.Text = "Переглянути мережу";
+            this.viewNodeButton.Text = "Переглянути вузли";
             this.viewNodeButton.UseVisualStyleBackColor = true;
             this.viewNodeButton.Click += new System.EventHandler(this.viewNodeButton_Click);
             // 
@@ -95,6 +96,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.Indecator_green);
             this.groupBox2.Controls.Add(this.generateButton);
             this.groupBox2.Controls.Add(this.viewNodeButton);
@@ -104,6 +106,16 @@
             this.groupBox2.Size = new System.Drawing.Size(579, 584);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
+            // 
+            // Indecator_green
+            // 
+            this.Indecator_green.Image = ((System.Drawing.Image)(resources.GetObject("Indecator_green.Image")));
+            this.Indecator_green.Location = new System.Drawing.Point(151, 453);
+            this.Indecator_green.Name = "Indecator_green";
+            this.Indecator_green.Size = new System.Drawing.Size(159, 125);
+            this.Indecator_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Indecator_green.TabIndex = 2;
+            this.Indecator_green.TabStop = false;
             // 
             // Indecator_red
             // 
@@ -115,15 +127,16 @@
             this.Indecator_red.TabIndex = 3;
             this.Indecator_red.TabStop = false;
             // 
-            // Indecator_green
+            // button1
             // 
-            this.Indecator_green.Image = ((System.Drawing.Image)(resources.GetObject("Indecator_green.Image")));
-            this.Indecator_green.Location = new System.Drawing.Point(151, 453);
-            this.Indecator_green.Name = "Indecator_green";
-            this.Indecator_green.Size = new System.Drawing.Size(159, 125);
-            this.Indecator_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Indecator_green.TabIndex = 2;
-            this.Indecator_green.TabStop = false;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(62, 126);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(197, 78);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Опис мережі";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
@@ -139,8 +152,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Система Моделювання сенсорних мереж КН-41 2019";
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Indecator_red)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Indecator_green)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Indecator_red)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,6 +169,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.PictureBox Indecator_red;
         private System.Windows.Forms.PictureBox Indecator_green;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -58,6 +58,12 @@
     <Compile Include="GenerationChoice.Designer.cs">
       <DependentUpon>GenerationChoice.cs</DependentUpon>
     </Compile>
+    <Compile Include="NetworkData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkData.Designer.cs">
+      <DependentUpon>NetworkData.cs</DependentUpon>
+    </Compile>
     <Compile Include="NodeView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GenerationChoice.resx">
       <DependentUpon>GenerationChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkData.resx">
+      <DependentUpon>NetworkData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NodeView.resx">
       <DependentUpon>NodeView.cs</DependentUpon>

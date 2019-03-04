@@ -11,3 +11,4 @@ C:\Users\V\source\repos\ClassNode\ClassNode\obj\Debug\ClassNode.SetRangeOfRandom
 C:\Users\V\source\repos\ClassNode\ClassNode\obj\Debug\ClassNode.MainForm.resources
 C:\Users\V\source\repos\ClassNode\ClassNode\obj\Debug\ClassNode.GenerationChoice.resources
 C:\Users\V\source\repos\ClassNode\ClassNode\obj\Debug\ClassNode.NodeView.resources
+C:\Users\V\source\repos\ClassNode\ClassNode\obj\Debug\ClassNode.NetworkData.resources

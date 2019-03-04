@@ -120,7 +120,7 @@ namespace ClassNode
         }
 
         //повертає наявність GPS
-        public bool isGPS()
+        public bool get_GPS()
         {
             return this.hasGPS;
         }

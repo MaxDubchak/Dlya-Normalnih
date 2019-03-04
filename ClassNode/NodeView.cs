@@ -50,7 +50,7 @@ namespace ClassNode
 
             rangeLabel.Text = Convert.ToString(node.getRange());
             batteryLabel.Text = Convert.ToString(node.getBatteryCharge());
-            gpsLabel.Text = Convert.ToString(node.isGPS());
+            gpsLabel.Text = Convert.ToString(node.get_GPS());
         }
 
         //видаляє вузол

@@ -43,7 +43,13 @@ namespace ClassNode
             Form nodeView = new NodeView(network);
             nodeView.ShowDialog();
         }
-        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form networkData = new NetworkData(network);
+            networkData.ShowDialog();
+        }
+
         //loading = !loading;
         //Indecator_green.Visible = !loading;
         //Indecator_red.Visible = loading;
