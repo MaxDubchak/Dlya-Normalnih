@@ -80,13 +80,16 @@ namespace ClassNode
                 network.addNode(newNode);
             }
 
+            network.calculateSize();
+
             //закриття форми
             this.Close();
         }
 
         private void handGeneration_Click(object sender, EventArgs e)
         {
-
+            Form manualGeneration = new ManualGeneration(network);
+            manualGeneration.ShowDialog();
         }
     }
 }

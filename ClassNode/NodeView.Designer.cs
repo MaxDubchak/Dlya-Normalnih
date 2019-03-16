@@ -58,15 +58,16 @@
             this.gpsLabel = new System.Windows.Forms.Label();
             this.batteryLabel = new System.Windows.Forms.Label();
             this.rangeLabel = new System.Windows.Forms.Label();
+            this.add = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // delete
             // 
             this.delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.delete.Location = new System.Drawing.Point(331, 632);
+            this.delete.Location = new System.Drawing.Point(220, 632);
             this.delete.Name = "delete";
-            this.delete.Size = new System.Drawing.Size(125, 50);
+            this.delete.Size = new System.Drawing.Size(160, 50);
             this.delete.TabIndex = 2;
             this.delete.Text = "Видалити";
             this.delete.UseVisualStyleBackColor = true;
@@ -373,11 +374,24 @@
             this.rangeLabel.TabIndex = 30;
             this.rangeLabel.Text = "range";
             // 
+            // add
+            // 
+            this.add.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.add.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.add.Location = new System.Drawing.Point(420, 632);
+            this.add.Name = "add";
+            this.add.Size = new System.Drawing.Size(160, 50);
+            this.add.TabIndex = 31;
+            this.add.Text = "Додати новий";
+            this.add.UseVisualStyleBackColor = true;
+            this.add.Click += new System.EventHandler(this.add_Click);
+            // 
             // NodeView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(781, 694);
+            this.Controls.Add(this.add);
             this.Controls.Add(this.rangeLabel);
             this.Controls.Add(this.batteryLabel);
             this.Controls.Add(this.gpsLabel);
@@ -449,5 +463,6 @@
         private System.Windows.Forms.Label gpsLabel;
         private System.Windows.Forms.Label batteryLabel;
         private System.Windows.Forms.Label rangeLabel;
+        private System.Windows.Forms.Button add;
     }
 }

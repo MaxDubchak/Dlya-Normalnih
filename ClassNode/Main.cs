@@ -32,6 +32,7 @@ namespace ClassNode
             
         }
 
+        //кнопка для відображення списку вузлів
         private void viewNodeButton_Click(object sender, EventArgs e)
         {
             if(network.get_numNodes() == 0)
@@ -44,11 +45,22 @@ namespace ClassNode
             nodeView.ShowDialog();
         }
 
+        //кнопка для відображення коротких даних про мережу
         private void button1_Click(object sender, EventArgs e)
         {
             Form networkData = new NetworkData(network);
             networkData.ShowDialog();
         }
+
+        //індивідуальні завдання
+        #region individualTasks
+
+        private void _17_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Number_17.DoSmth());
+        }
+
+        #endregion
 
         //loading = !loading;
         //Indecator_green.Visible = !loading;

@@ -143,5 +143,13 @@ namespace ClassNode
             currentNodeNum = Convert.ToInt32(currentNode.Text);
             currentNode.Text = Convert.ToString(currentNodeNum + 1);
         }
+
+        private void add_Click(object sender, EventArgs e)
+        {
+            Form addNode = new AddNewNode(network);
+            addNode.ShowDialog();
+            
+            currentNode.Text = Convert.ToString(network.get_numNodes() - 1);
+        }
     }
 }

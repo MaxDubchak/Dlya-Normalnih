@@ -33,11 +33,15 @@
             this.generateButton = new System.Windows.Forms.Button();
             this.viewNodeButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this._17 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.Indecator_green = new System.Windows.Forms.PictureBox();
             this.Indecator_red = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Indecator_green)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Indecator_red)).BeginInit();
@@ -77,12 +81,34 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.flowLayoutPanel1);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.groupBox1.Location = new System.Drawing.Point(597, 43);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(482, 584);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this._17);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(476, 565);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // _17
+            // 
+            this._17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this._17.Location = new System.Drawing.Point(3, 3);
+            this._17.Name = "_17";
+            this._17.Size = new System.Drawing.Size(447, 78);
+            this._17.TabIndex = 0;
+            this._17.Text = "17. Рибіцький - Маршрутизація в сенсорних мережах за протоколом GBR";
+            this._17.UseVisualStyleBackColor = true;
+            this._17.Click += new System.EventHandler(this._17_Click);
             // 
             // label2
             // 
@@ -107,6 +133,17 @@
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(62, 126);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(197, 78);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Опис мережі";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Indecator_green
             // 
             this.Indecator_green.Image = ((System.Drawing.Image)(resources.GetObject("Indecator_green.Image")));
@@ -127,17 +164,6 @@
             this.Indecator_red.TabIndex = 3;
             this.Indecator_red.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(62, 126);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 78);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Опис мережі";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -151,6 +177,8 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Система Моделювання сенсорних мереж КН-41 2019";
+            this.groupBox1.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Indecator_green)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Indecator_red)).EndInit();
@@ -170,6 +198,8 @@
         private System.Windows.Forms.PictureBox Indecator_red;
         private System.Windows.Forms.PictureBox Indecator_green;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button _17;
     }
 }
 
