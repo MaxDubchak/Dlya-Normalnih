@@ -10,7 +10,7 @@ namespace ClassNode
     {
         public static String DoSmth()
         {
-            return "Hello";
+            return "Hello world";
         }
     }
 }
