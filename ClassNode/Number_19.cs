@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ClassNode
 {
-    public class Number_17
+    class Number_19
     {
         private SensorNetwork network;
 
         //отримує сенсорну мережу для індивідуального завдання
-        public Number_17(SensorNetwork network)
+        public Number_19(SensorNetwork network)
         {
             this.network = network;
         }
