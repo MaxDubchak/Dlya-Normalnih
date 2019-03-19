@@ -57,12 +57,7 @@ namespace ClassNode
 
         private void _17_Click(object sender, EventArgs e)
         {
-            Number_17 number_17 = new Number_17(network);
-        }
-
-        private void _18_Click(object sender, EventArgs e)
-        {
-            Number_18 number_18 = new Number_18(network);
+            Number_1 number_1 = new Number_1(network);
         }
 
 

@@ -83,31 +83,6 @@
       <DependentUpon>NodeView.cs</DependentUpon>
     </Compile>
     <Compile Include="Number_1.cs" />
-    <Compile Include="Number_10.cs" />
-    <Compile Include="Number_12.cs" />
-    <Compile Include="Number_13.cs" />
-    <Compile Include="Number_14.cs" />
-    <Compile Include="Number_15.cs" />
-    <Compile Include="Number_16.cs" />
-    <Compile Include="Number_18.cs" />
-    <Compile Include="Number_19.cs" />
-    <Compile Include="Number_2.cs" />
-    <Compile Include="Number_20.cs" />
-    <Compile Include="Number_21.cs" />
-    <Compile Include="Number_22.cs" />
-    <Compile Include="Number_23.cs" />
-    <Compile Include="Number_24.cs" />
-    <Compile Include="Number_25.cs" />
-    <Compile Include="Number_26.cs" />
-    <Compile Include="Number_27.cs" />
-    <Compile Include="Number_3.cs" />
-    <Compile Include="Number_4.cs" />
-    <Compile Include="Number_5.cs" />
-    <Compile Include="Number_6.cs" />
-    <Compile Include="Number_7.cs" />
-    <Compile Include="Number_8.cs" />
-    <Compile Include="Number_9.cs" />
-    <Compile Include="Numer_11.cs" />
     <Compile Include="SetRangeOfRandomNode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,7 +94,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RangeOfRandomNode.cs" />
     <Compile Include="SensorNetwork.cs" />
-    <Compile Include="Number_17.cs" />
     <EmbeddedResource Include="AddNewNode.resx">
       <DependentUpon>AddNewNode.cs</DependentUpon>
     </EmbeddedResource>

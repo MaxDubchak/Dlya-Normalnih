@@ -35,7 +35,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this._17 = new System.Windows.Forms.Button();
-            this._18 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -94,7 +93,6 @@
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Controls.Add(this._17);
-            this.flowLayoutPanel1.Controls.Add(this._18);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 16);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -108,21 +106,9 @@
             this._17.Name = "_17";
             this._17.Size = new System.Drawing.Size(447, 78);
             this._17.TabIndex = 0;
-            this._17.Text = "17. Рибіцький - Маршрутизація в сенсорних мережах за протоколом GBR";
+            this._17.Text = "Кнопка для коду";
             this._17.UseVisualStyleBackColor = true;
             this._17.Click += new System.EventHandler(this._17_Click);
-            // 
-            // _18
-            // 
-            this._18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this._18.Location = new System.Drawing.Point(3, 87);
-            this._18.Name = "_18";
-            this._18.Size = new System.Drawing.Size(447, 78);
-            this._18.TabIndex = 1;
-            this._18.Text = "18. Сиводєдов - Позиціонування в сенсорних мережах за методом трилатерації для 2D" +
-    " моделей";
-            this._18.UseVisualStyleBackColor = true;
-            this._18.Click += new System.EventHandler(this._18_Click);
             // 
             // label2
             // 
@@ -214,7 +200,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button _17;
-        private System.Windows.Forms.Button _18;
     }
 }
 
