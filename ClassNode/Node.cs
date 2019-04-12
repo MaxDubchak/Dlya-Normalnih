@@ -25,11 +25,11 @@ namespace ClassNode
         //радіус дії вузла (в метрах)
         private int rangeOfAction;
 
-        //заряд акумулятора (в секундах)
+        //заряд акумулятора (ємність, міліАмпери)
         private int batteryCharge;
 
-        //тип вузла
-        private string type;
+        //тип вузла (1 - звичайний, 2 - хедер, 3 - центральний)
+        private int type = 1;
 
         //##############################################################################
 
@@ -90,7 +90,7 @@ namespace ClassNode
         }
 
         //встановлює тип вузла
-        public void setType(string type)
+        public void setType(int type)
         {
             this.type = type;
         }
@@ -154,7 +154,7 @@ namespace ClassNode
         }
 
         //повертає тип вузла
-        public string getType()
+        public int getType()
         {
             return this.type;
         }

@@ -59,14 +59,14 @@ namespace ClassNode
             min_numSensors.Text = "0";
 
             max_numNodes.Text = "100";
-            max_X.Text = "100";
-            max_Y.Text = "100";
-            max_Z.Text = "100";
-            max_length.Text = "100";
-            max_height.Text = "100";
-            max_width.Text = "100";
+            max_X.Text = "750";
+            max_Y.Text = "750";
+            max_Z.Text = "750";
+            max_length.Text = "10";
+            max_height.Text = "10";
+            max_width.Text = "10";
             max_range.Text = "1000";
-            max_batteryCharge.Text = "604800";
+            max_batteryCharge.Text = "10000";
             max_numSensors.Text = "50";
         }
     }

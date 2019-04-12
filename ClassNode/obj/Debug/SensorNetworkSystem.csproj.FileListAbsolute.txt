@@ -3,7 +3,6 @@ C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\bin\Debug\ClassNode.exe
 C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\bin\Debug\ClassNode.pdb
 C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\obj\Debug\SensorNetworkSystem.csprojAssemblyReference.cache
 C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\obj\Debug\ClassNode.MainForm.resources
-C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\obj\Debug\ClassNode.GenerationChoice.resources
 C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\obj\Debug\ClassNode.NetworkData.resources
 C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\obj\Debug\ClassNode.NodeView.resources
 C:\Users\V\Desktop\SensorNetworkSystem\ClassNode\obj\Debug\ClassNode.SetRangeOfRandomNode.resources

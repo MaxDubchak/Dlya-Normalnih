@@ -13,10 +13,10 @@ namespace ClassNode
         private List<Node> network = new List<Node>();
 
         //чи мережа в 3D просторі
-        bool has3D;
+        bool has3D = false;
 
-        //площа та об'єм мережі
-        int square, capacity;
+        //розміри мережі
+        int height, width, depth;
 
         //##############################################################################
         //додавання вузла в мережу
@@ -53,7 +53,7 @@ namespace ClassNode
             return network[index];
         }
 
-        //обраховує значення площі і об'єму мережі
+        //обраховує значення розмірів в мережі
         public void calculateSize()
         {
             int num = this.get_numNodes();
@@ -90,22 +90,40 @@ namespace ClassNode
                     min_Z = Z;
             }
 
-
             //обраховує площу та об'єм
-            this.square = (max_X - min_X) * (max_Y - min_Y);
-            this.capacity = this.square * (max_Z - min_Z);
+            height = max_Y - min_Y;
+            width = max_X - min_X;
+            depth = max_Z - min_Z;
         }
 
-        //повертає площу мережі
-        public int get_Square()
+        public int get_height()
         {
-            return this.square;
+            return height;
         }
 
-        //повертає об'єм мережі
-        public int get_Capacity()
+        public int get_width()
         {
-            return this.capacity;
+            return width;
+        }
+
+        public int get_depth()
+        {
+            return depth;
+        }
+
+        public void set_height(int height)
+        {
+            this.height = height;
+        }
+
+        public void set_width(int width)
+        {
+            this.width = width;
+        }
+
+        public void set_depth(int depth)
+        {
+            this.depth = depth;
         }
     }
 }

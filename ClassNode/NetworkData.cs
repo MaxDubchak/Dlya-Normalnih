@@ -21,19 +21,7 @@ namespace ClassNode
 
         private void NetworkData_Load(object sender, EventArgs e)
         {
-            if(network.get_3D())
-            {
-                label_3D.Text = "Так";
-                label_Size.Text = Convert.ToString(network.get_Capacity()) + "m^3";
-            }
-            else
-            {
-                label_3D.Text = "Ні";
-                label_Size.Text = Convert.ToString(network.get_Square()) + "m^2";
-            }
-
-            label_Number.Text = Convert.ToString(network.get_numNodes());
-
+          
         }
     }
 }

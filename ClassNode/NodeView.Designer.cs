@@ -260,9 +260,9 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label12.Location = new System.Drawing.Point(419, 524);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(276, 24);
+            this.label12.Size = new System.Drawing.Size(266, 24);
             this.label12.TabIndex = 19;
-            this.label12.Text = "Час роботи акумулятора (с) = ";
+            this.label12.Text = "Ємність акумулятора (mA) = ";
             // 
             // label13
             // 
@@ -358,7 +358,7 @@
             // 
             this.batteryLabel.AutoSize = true;
             this.batteryLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.batteryLabel.Location = new System.Drawing.Point(690, 524);
+            this.batteryLabel.Location = new System.Drawing.Point(681, 524);
             this.batteryLabel.Name = "batteryLabel";
             this.batteryLabel.Size = new System.Drawing.Size(45, 24);
             this.batteryLabel.TabIndex = 29;
