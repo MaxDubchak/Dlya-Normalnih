@@ -47,6 +47,14 @@
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox_scene = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+=======
+            this.generateButton = new System.Windows.Forms.Button();
+            this.viewNodeButton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this._17 = new System.Windows.Forms.Button();
+>>>>>>> 9d8d42965e1db4b0c3831f936796d264feeeb80e
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.radioButton_2D = new System.Windows.Forms.RadioButton();
@@ -230,9 +238,68 @@
             this.label1.Location = new System.Drawing.Point(41, 98);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
+<<<<<<< HEAD
             this.label1.Size = new System.Drawing.Size(191, 24);
             this.label1.TabIndex = 9;
             this.label1.Text = "ПАРАМЕТРИ ПЛОЩІ";
+=======
+            this.label1.Size = new System.Drawing.Size(123, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Стан мережі";
+            // 
+            // generateButton
+            // 
+            this.generateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.generateButton.Location = new System.Drawing.Point(62, 19);
+            this.generateButton.Name = "generateButton";
+            this.generateButton.Size = new System.Drawing.Size(197, 78);
+            this.generateButton.TabIndex = 1;
+            this.generateButton.Text = "Згенерувати мережу";
+            this.generateButton.UseVisualStyleBackColor = true;
+            this.generateButton.Click += new System.EventHandler(this.generateButton_Click);
+            // 
+            // viewNodeButton
+            // 
+            this.viewNodeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.viewNodeButton.Location = new System.Drawing.Point(324, 19);
+            this.viewNodeButton.Name = "viewNodeButton";
+            this.viewNodeButton.Size = new System.Drawing.Size(197, 78);
+            this.viewNodeButton.TabIndex = 4;
+            this.viewNodeButton.Text = "Переглянути вузли";
+            this.viewNodeButton.UseVisualStyleBackColor = true;
+            this.viewNodeButton.Click += new System.EventHandler(this.viewNodeButton_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.flowLayoutPanel1);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.groupBox1.Location = new System.Drawing.Point(597, 43);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(482, 584);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this._17);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(476, 565);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // _17
+            // 
+            this._17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this._17.Location = new System.Drawing.Point(3, 3);
+            this._17.Name = "_17";
+            this._17.Size = new System.Drawing.Size(447, 78);
+            this._17.TabIndex = 0;
+            this._17.Text = "Кнопка для коду";
+            this._17.UseVisualStyleBackColor = true;
+            this._17.Click += new System.EventHandler(this._17_Click);
+>>>>>>> 9d8d42965e1db4b0c3831f936796d264feeeb80e
             // 
             // label2
             // 
@@ -665,6 +732,7 @@
         private System.Windows.Forms.PictureBox pictureBox_scene;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton radioButton_2D;
         private System.Windows.Forms.RadioButton radioButton_3D;
@@ -691,6 +759,14 @@
         private System.Windows.Forms.ComboBox comboBox_Head_Z;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ToolStripMenuItem lEACHToolStripMenuItem;
+=======
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.PictureBox Indecator_red;
+        private System.Windows.Forms.PictureBox Indecator_green;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button _17;
+>>>>>>> 9d8d42965e1db4b0c3831f936796d264feeeb80e
     }
 }
 

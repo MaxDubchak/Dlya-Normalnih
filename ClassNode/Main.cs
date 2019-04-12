@@ -196,6 +196,7 @@ namespace ClassNode
         //при виборі 2д
         private void radioButton_2D_CheckedChanged(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             label4.Visible = false;
             label12.Visible = false;
             comboBox_Head_Z.Visible = false;
@@ -243,6 +244,9 @@ namespace ClassNode
             }
 
             f.Close();
+=======
+            Number_1 number_1 = new Number_1(network);
+>>>>>>> 9d8d42965e1db4b0c3831f936796d264feeeb80e
         }
 
         //читання з файлу

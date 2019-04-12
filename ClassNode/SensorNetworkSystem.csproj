@@ -77,7 +77,11 @@
     <Compile Include="NodeView.Designer.cs">
       <DependentUpon>NodeView.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="RandomGeneration.cs" />
+=======
+    <Compile Include="Number_1.cs" />
+>>>>>>> 9d8d42965e1db4b0c3831f936796d264feeeb80e
     <Compile Include="SetRangeOfRandomNode.cs">
       <SubType>Form</SubType>
     </Compile>
